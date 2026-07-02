@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software or the ChangeLing18K dataset, please cite the paper below."
+title: "Odo: Depth-Guided Diffusion for Identity-Preserving Body Reshaping"
+authors:
+  - family-names: Khandelwal
+    given-names: Siddharth
+  - family-names: Kamath
+    given-names: Sridhar
+  - family-names: Jain
+    given-names: Arjun
+preferred-citation:
+  type: conference-paper
+  title: "Odo: Depth-Guided Diffusion for Identity-Preserving Body Reshaping"
+  authors:
+    - family-names: Khandelwal
+      given-names: Siddharth
+    - family-names: Kamath
+      given-names: Sridhar
+    - family-names: Jain
+      given-names: Arjun
+  collection-title: "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+  year: 2026
+  month: 3
+  start: 22
+  end: 31
+  url: "https://openaccess.thecvf.com/content/WACV2026/html/Khandelwal_Odo_Depth-Guided_Diffusion_for_Identity-Preserving_Body_Reshaping_WACV_2026_paper.html"

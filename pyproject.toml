@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "odo"
+version = "0.1.0"
+description = "Odo: Depth-Guided Diffusion for Identity-Preserving Body Reshaping"
+requires-python = ">=3.10"
+
+# Dependencies are pinned in requirements.txt / requirements_minimal.txt (CUDA-specific
+# wheels), so they are intentionally not duplicated here. Install those first, then
+# `pip install -e .` to put `odo`, `nlf`, and `posepile` on the path regardless of CWD.
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["odo*", "nlf*", "posepile*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.npz", "*.npy", "*.json", "*.yaml", "*.yml"]
